@@ -1,0 +1,3 @@
+- insert:
+  - id: zero-armor
+    name: "@local/dsh-zero-armor"

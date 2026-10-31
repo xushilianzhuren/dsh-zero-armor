@@ -1,0 +1,11 @@
+{
+  "name": "dsh-zero-armor",
+  "version": "1.0.0",
+  "description": "零叠甲闸：交付前机械扫描底座回魂话术——讨好叠甲（you're right式裸认错）、免责链、授权请示瘫痪、自我推翻、AI助手腔，逐族报命中与改法；HTTP API一行接入，扫描在发送前完成。",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": { ".": "./index.js" },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
